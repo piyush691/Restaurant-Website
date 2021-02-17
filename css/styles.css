@@ -1,0 +1,102 @@
+.row-header
+{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #101820ff;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #101820ff;
+    color: floralwhite;
+    font-family: 'Lemonada', cursive;
+}
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #101820ff;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    background-color: #101820ff;
+    background-image: url('/img/home.jpg');
+   
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.foood {
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.nav-link {
+    color: #101820ff;
+}
+
+i {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  .tab-content {
+      border-left: 1px solid #dddddd;
+      border-right: 1px solid #dddddd;
+      border-bottom: 1px solid #dddddd;
+      padding: 10px;
+
+  }
+
+  .carousel {
+      background:  #101820ff;
+      font-family: 'Balsamiq Sans', cursive;
+  }
+  .carousel-item {
+      height: 250px;
+      font-family: 'Balsamiq Sans', cursive;
+  }
+
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 250px;
+      width: 25%;
+  }
+
+  #carouselButton {
+      right: 0px;
+      position: absolute;
+      bottom: 0px;
+      z-index: 1;
+  }
+  
+  .modal-header {
+    background: rgba(0, 0, 0, 0.301);
+    color: floralwhite; }
+    .modal-header button {
+      color: floralwhite; }
+  
+  .modal-body {
+    background: whitesmoke; }
+  
+  .modal-footer {
+    background:  whitesmoke }
